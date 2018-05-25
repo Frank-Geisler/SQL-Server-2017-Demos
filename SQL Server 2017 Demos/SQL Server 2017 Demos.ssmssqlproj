@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Server 2017 Demos">
+  <Items>
+    <LogicalFolder Name="Verbindungen" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="sql2017testcdc.westeurope.cloudapp.azure.com:sa">
+          <Created>2018-05-11T17:25:04.2128837+02:00</Created>
+          <Type>SQL</Type>
+          <Server>sql2017testcdc.westeurope.cloudapp.azure.com</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Abfragen" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="00 - setup_environment.sql.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sql2017testcdc.westeurope.cloudapp.azure.com:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sql2017testcdc.westeurope.cloudapp.azure.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>00 - setup_environment.sql.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01 - AQP - MSTVF.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sql2017testcdc.westeurope.cloudapp.azure.com:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sql2017testcdc.westeurope.cloudapp.azure.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>01 - AQP - MSTVF.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02 - AQP - Batch Mode Memory Grant Feedback.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sql2017testcdc.westeurope.cloudapp.azure.com:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sql2017testcdc.westeurope.cloudapp.azure.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>02 - AQP - Batch Mode Memory Grant Feedback.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03 - AQP - Batch Mode Adaptive Joins - Create Table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sql2017testcdc.westeurope.cloudapp.azure.com:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sql2017testcdc.westeurope.cloudapp.azure.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>03 - AQP - Batch Mode Adaptive Joins - Create Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04 - AQP - Batch Mode Adaptive Joins - Test.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sql2017testcdc.westeurope.cloudapp.azure.com:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sql2017testcdc.westeurope.cloudapp.azure.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>04 - AQP - Batch Mode Adaptive Joins - Test.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05 - Automatisches Tuning.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sql2017testcdc.westeurope.cloudapp.azure.com:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sql2017testcdc.westeurope.cloudapp.azure.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>05 - Automatisches Tuning.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06 - Graph - Vorschläge relational.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sql2017testcdc.westeurope.cloudapp.azure.com:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sql2017testcdc.westeurope.cloudapp.azure.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>06 - Graph - Vorschläge relational.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07 - Graph - Vorschläge graph.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sql2017testcdc.westeurope.cloudapp.azure.com:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sql2017testcdc.westeurope.cloudapp.azure.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>07 - Graph - Vorschläge graph.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08 - Graph - Tabellen erstellen und füllen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sql2017testcdc.westeurope.cloudapp.azure.com:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sql2017testcdc.westeurope.cloudapp.azure.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>08 - Graph - Tabellen erstellen und füllen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09 - Graph - Graphen abfragen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sql2017testcdc.westeurope.cloudapp.azure.com:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sql2017testcdc.westeurope.cloudapp.azure.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>09 - Graph - Graphen abfragen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10 - ML - Vorbereitung.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sql2017testcdc.westeurope.cloudapp.azure.com:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sql2017testcdc.westeurope.cloudapp.azure.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>10 - ML - Vorbereitung.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11 - ML - Mit der Textklassifizierung arbeiten.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sql2017testcdc.westeurope.cloudapp.azure.com:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sql2017testcdc.westeurope.cloudapp.azure.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>11 - ML - Mit der Textklassifizierung arbeiten.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Sonstiges" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
